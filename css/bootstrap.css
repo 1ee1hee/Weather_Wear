@@ -5713,14 +5713,23 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-.app {
+.app1 {
   text-align: center;
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  color: white;
-  background-image: linear-gradient(79deg, #0f0c49, #668bda 48%, #ffffff);
+  color: rgb(0,0,0);
+  background-color: white;
+}
+.app {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: white;
 }
 .link-btn {
   background: none;
